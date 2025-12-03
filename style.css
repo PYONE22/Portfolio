@@ -302,7 +302,7 @@ section h2.sub-title span {
 }
 
 /* Responsive for mobile */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .edu-item {
     flex-direction: column;
     align-items: flex-start;
@@ -312,7 +312,7 @@ section h2.sub-title span {
   .edu-left {
     margin-bottom: 5px;
   }
-}
+} */
 
 
 /* ===== Interests ===== */
@@ -378,7 +378,7 @@ section h2.sub-title span {
     max-width: 1000px; /* အလယ်မှာ ထိန်းချုပ်ရန် */
     padding: 30px;
     border-radius: 10px;
-    background: #1e293b; /* Darker box background */
+    background: #1e293b; 
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease;
 }
@@ -475,7 +475,7 @@ section h2.sub-title span {
 }
 
 /* Mobile Responsiveness */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .project-box {
         flex-direction: column;
         text-align: center;
@@ -492,7 +492,7 @@ section h2.sub-title span {
     .btn {
         margin-right: 0;
     }
-}
+} */
 
 /* ===== Footer ===== */
 footer {
@@ -553,8 +553,47 @@ footer p {
     .menu-btn {
         display: flex;
     }
-}
 
+     .home-content h1 {
+        font-size: 2rem;
+    }
+
+    .home-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .myphoto img {
+        width: 200px;
+    }
+
+    .edu-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;
+    }
+
+    .edu-left {
+    margin-bottom: 5px;
+    }
+
+    .project-box {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .project-info {
+        text-align: center;
+    }
+    .project-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .btn {
+        margin-right: 0;
+    }
+}
+/* 
 @media (max-width: 500px) {
     .home-content h1 {
         font-size: 2rem;
@@ -567,4 +606,4 @@ footer p {
     .myphoto img {
         width: 200px;
     }
-}
+} */
